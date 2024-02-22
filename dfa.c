@@ -9,16 +9,8 @@
     Instructor: Arashdeep Kaur, ak3257@njit.edu
 */
 
-char phi[26];
 char period = '.';
 char at = '@';
-
-void init(){
-    for (char c = 'a'; c <= 'z'; c++) {
-        phi[c - 'a'] = c;
-    }
-    return;
-}
 
 int check_phi(char c){
     if( c >= 97 && c <= 122)
@@ -74,7 +66,6 @@ int q0_hk37(char *word, int start, int end){
 }
 
 int main() {
-    init();
     printf("Project 1 for CS341 \n");
     printf("Section number: 004 \n");
     printf("Semester: Spring 2024 \n");

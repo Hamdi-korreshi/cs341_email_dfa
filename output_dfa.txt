@@ -1,0 +1,13 @@
+Project 1 for CS341 
+Section number: 004 
+Semester: Spring 2024 
+Written by: Hamdi Korresi, hk37 
+Project 1 for CS341 
+Enter a number, n >= 0, for strings to process: 
+3 strings to be processed
+Enter string 1 out of 3 
+String 1: hamdi
+Enter string 2 out of 3 
+String 1: korreshi
+Enter string 3 out of 3 
+String 1: smacks

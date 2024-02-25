@@ -4,10 +4,447 @@ Semester: Spring 2024
 Written by: Hamdi Korresi, hk37 
 Project 1 for CS341 
 Enter a number, n >= 0, for strings to process: 
-3 strings to be processed
-Enter string 1 out of 3 
-String 1: hamdi
-Enter string 2 out of 3 
-String 1: korreshi
-Enter string 3 out of 3 
-String 1: smacks
+20 strings to be processed
+---------------------------------------------------------
+
+Enter string 1 out of 20 
+String 1: njit@njit.gov
+length: 13
+Char 'n', started in state q0 and went to q1
+Char 'j', started in state q1 and went to q1
+Char 'i', started in state q1 and went to q1
+Char 't', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char 'n', started in state q2 and went to q3
+Char 'j', started in state q3 and went to q3
+Char 'i', started in state q3 and went to q3
+Char 't', started in state q3 and went to q3
+Char '.', started in state q3 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'o', started in state q5 and went to q6
+Char 'v', started in state q6 and went to q7
+String njit@njit.gov is a legal email address
+---------------------------------------------------------
+
+Enter string 2 out of 20 
+String 2: b@d.gov
+length: 7
+Char 'b', started in state q0 and went to q1
+Char '@', started in state q1 and went to q2
+Char 'd', started in state q2 and went to q3
+Char '.', started in state q3 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'o', started in state q5 and went to q6
+Char 'v', started in state q6 and went to q7
+String b@d.gov is a legal email address
+---------------------------------------------------------
+
+Enter string 3 out of 20 
+String 3: tuv@wxyz.gr
+length: 11
+Char 't', started in state q0 and went to q1
+Char 'u', started in state q1 and went to q1
+Char 'v', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char 'w', started in state q2 and went to q3
+Char 'x', started in state q3 and went to q3
+Char 'y', started in state q3 and went to q3
+Char 'z', started in state q3 and went to q3
+Char '.', started in state q3 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'r', started in state q5 and went to q7
+String tuv@wxyz.gr is a legal email address
+---------------------------------------------------------
+
+Enter string 4 out of 20 
+String 4: opqr@.gov
+length: 9
+Char 'o', started in state q0 and went to q1
+Char 'p', started in state q1 and went to q1
+Char 'q', started in state q1 and went to q1
+Char 'r', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char '.', started in state q2 and went to q8
+Char 'g', started in state q8 and went to q8 (trap state) 
+Char 'o', started in state q8 and went to q8 (trap state) 
+Char 'v', started in state q8 and went to q8 (trap state) 
+String opqr@.gov is not a legal email address
+---------------------------------------------------------
+
+Enter string 5 out of 20 
+String 5: web.rstuv.b.gov.cdef@z.gr.go.stanford.gov
+length: 41
+Char 'w', started in state q0 and went to q1
+Char 'e', started in state q1 and went to q1
+Char 'b', started in state q1 and went to q1
+Char '.', started in state q1 and went to q0
+Char 'r', started in state q0 and went to q1
+Char 's', started in state q1 and went to q1
+Char 't', started in state q1 and went to q1
+Char 'u', started in state q1 and went to q1
+Char 'v', started in state q1 and went to q1
+Char '.', started in state q1 and went to q0
+Char 'b', started in state q0 and went to q1
+Char '.', started in state q1 and went to q0
+Char 'g', started in state q0 and went to q1
+Char 'o', started in state q1 and went to q1
+Char 'v', started in state q1 and went to q1
+Char '.', started in state q1 and went to q0
+Char 'c', started in state q0 and went to q1
+Char 'd', started in state q1 and went to q1
+Char 'e', started in state q1 and went to q1
+Char 'f', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char 'z', started in state q2 and went to q3
+Char '.', started in state q3 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'r', started in state q5 and went to q7
+Char '.', started in state q7 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'o', started in state q5 and went to q6
+Char '.', started in state q6 and went to q4
+Char 's', started in state q4 and went to q3
+Char 't', started in state q3 and went to q3
+Char 'a', started in state q3 and went to q3
+Char 'n', started in state q3 and went to q3
+Char 'f', started in state q3 and went to q3
+Char 'o', started in state q3 and went to q3
+Char 'r', started in state q3 and went to q3
+Char 'd', started in state q3 and went to q3
+Char '.', started in state q3 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'o', started in state q5 and went to q6
+Char 'v', started in state q6 and went to q7
+String web.rstuv.b.gov.cdef@z.gr.go.stanford.gov is a legal email address
+---------------------------------------------------------
+
+Enter string 6 out of 20 
+String 6: gg@ggg.gov..gov
+length: 15
+Char 'g', started in state q0 and went to q1
+Char 'g', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char 'g', started in state q2 and went to q3
+Char 'g', started in state q3 and went to q3
+Char 'g', started in state q3 and went to q3
+Char '.', started in state q3 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'o', started in state q5 and went to q6
+Char 'v', started in state q6 and went to q7
+Char '.', started in state q7 and went to q4
+Char '.', started in state q4 and went to q8
+Char 'g', started in state q8 and went to q8 (trap state) 
+Char 'o', started in state q8 and went to q8 (trap state) 
+Char 'v', started in state q8 and went to q8 (trap state) 
+String gg@ggg.gov..gov is not a legal email address
+---------------------------------------------------------
+
+Enter string 7 out of 20 
+String 7: zyxw.@phone.gov
+length: 15
+Char 'z', started in state q0 and went to q1
+Char 'y', started in state q1 and went to q1
+Char 'x', started in state q1 and went to q1
+Char 'w', started in state q1 and went to q1
+Char '.', started in state q1 and went to q0
+Char '@', started in state q0 and went to q8
+Char 'p', started in state q8 and went to q8 (trap state) 
+Char 'h', started in state q8 and went to q8 (trap state) 
+Char 'o', started in state q8 and went to q8 (trap state) 
+Char 'n', started in state q8 and went to q8 (trap state) 
+Char 'e', started in state q8 and went to q8 (trap state) 
+Char '.', started in state q8 and went to q8 (trap state) 
+Char 'g', started in state q8 and went to q8 (trap state) 
+Char 'o', started in state q8 and went to q8 (trap state) 
+Char 'v', started in state q8 and went to q8 (trap state) 
+String zyxw.@phone.gov is not a legal email address
+---------------------------------------------------------
+
+Enter string 8 out of 20 
+String 8: gov@govern.gov.
+length: 15
+Char 'g', started in state q0 and went to q1
+Char 'o', started in state q1 and went to q1
+Char 'v', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char 'g', started in state q2 and went to q3
+Char 'o', started in state q3 and went to q3
+Char 'v', started in state q3 and went to q3
+Char 'e', started in state q3 and went to q3
+Char 'r', started in state q3 and went to q3
+Char 'n', started in state q3 and went to q3
+Char '.', started in state q3 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'o', started in state q5 and went to q6
+Char 'v', started in state q6 and went to q7
+Char '.', started in state q7 and went to q4
+String gov@govern.gov. is not a legal email address
+---------------------------------------------------------
+
+Enter string 9 out of 20 
+String 9: yellow@abc.gov.green
+length: 20
+Char 'y', started in state q0 and went to q1
+Char 'e', started in state q1 and went to q1
+Char 'l', started in state q1 and went to q1
+Char 'l', started in state q1 and went to q1
+Char 'o', started in state q1 and went to q1
+Char 'w', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char 'a', started in state q2 and went to q3
+Char 'b', started in state q3 and went to q3
+Char 'c', started in state q3 and went to q3
+Char '.', started in state q3 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'o', started in state q5 and went to q6
+Char 'v', started in state q6 and went to q7
+Char '.', started in state q7 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'r', started in state q5 and went to q7
+Char 'e', started in state q7 and went to q3
+Char 'e', started in state q3 and went to q3
+Char 'n', started in state q3 and went to q3
+String yellow@abc.gov.green is not a legal email address
+---------------------------------------------------------
+
+Enter string 10 out of 20 
+String 10: random@gov
+length: 10
+Char 'r', started in state q0 and went to q1
+Char 'a', started in state q1 and went to q1
+Char 'n', started in state q1 and went to q1
+Char 'd', started in state q1 and went to q1
+Char 'o', started in state q1 and went to q1
+Char 'm', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char 'g', started in state q2 and went to q3
+Char 'o', started in state q3 and went to q3
+Char 'v', started in state q3 and went to q3
+String random@gov is not a legal email address
+---------------------------------------------------------
+
+Enter string 11 out of 20 
+String 11: rewq@g.gov.gr.gor
+length: 17
+Char 'r', started in state q0 and went to q1
+Char 'e', started in state q1 and went to q1
+Char 'w', started in state q1 and went to q1
+Char 'q', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char 'g', started in state q2 and went to q3
+Char '.', started in state q3 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'o', started in state q5 and went to q6
+Char 'v', started in state q6 and went to q7
+Char '.', started in state q7 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'r', started in state q5 and went to q7
+Char '.', started in state q7 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'o', started in state q5 and went to q6
+Char 'r', started in state q6 and went to q3
+String rewq@g.gov.gr.gor is not a legal email address
+---------------------------------------------------------
+
+Enter string 12 out of 20 
+String 12: www@gov.govr
+length: 12
+Char 'w', started in state q0 and went to q1
+Char 'w', started in state q1 and went to q1
+Char 'w', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char 'g', started in state q2 and went to q3
+Char 'o', started in state q3 and went to q3
+Char 'v', started in state q3 and went to q3
+Char '.', started in state q3 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'o', started in state q5 and went to q6
+Char 'v', started in state q6 and went to q7
+Char 'r', started in state q7 and went to q3
+String www@gov.govr is not a legal email address
+---------------------------------------------------------
+
+Enter string 13 out of 20 
+String 13: wwwc@gov.gr
+length: 11
+Char 'w', started in state q0 and went to q1
+Char 'w', started in state q1 and went to q1
+Char 'w', started in state q1 and went to q1
+Char 'c', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char 'g', started in state q2 and went to q3
+Char 'o', started in state q3 and went to q3
+Char 'v', started in state q3 and went to q3
+Char '.', started in state q3 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'r', started in state q5 and went to q7
+String wwwc@gov.gr is a legal email address
+---------------------------------------------------------
+
+Enter string 14 out of 20 
+String 14: .five@six.gov
+length: 13
+Char '.', started in state q0 and went to q8
+Char 'f', started in state q8 and went to q8 (trap state) 
+Char 'i', started in state q8 and went to q8 (trap state) 
+Char 'v', started in state q8 and went to q8 (trap state) 
+Char 'e', started in state q8 and went to q8 (trap state) 
+Char '@', started in state q8 and went to q8 (trap state) 
+Char 's', started in state q8 and went to q8 (trap state) 
+Char 'i', started in state q8 and went to q8 (trap state) 
+Char 'x', started in state q8 and went to q8 (trap state) 
+Char '.', started in state q8 and went to q8 (trap state) 
+Char 'g', started in state q8 and went to q8 (trap state) 
+Char 'o', started in state q8 and went to q8 (trap state) 
+Char 'v', started in state q8 and went to q8 (trap state) 
+String .five@six.gov is not a legal email address
+---------------------------------------------------------
+
+Enter string 15 out of 20 
+String 15: governess@go.gov@
+length: 17
+Char 'g', started in state q0 and went to q1
+Char 'o', started in state q1 and went to q1
+Char 'v', started in state q1 and went to q1
+Char 'e', started in state q1 and went to q1
+Char 'r', started in state q1 and went to q1
+Char 'n', started in state q1 and went to q1
+Char 'e', started in state q1 and went to q1
+Char 's', started in state q1 and went to q1
+Char 's', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char 'g', started in state q2 and went to q3
+Char 'o', started in state q3 and went to q3
+Char '.', started in state q3 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'o', started in state q5 and went to q6
+Char 'v', started in state q6 and went to q7
+Char '@', started in state q7 and went to q8
+String governess@go.gov@ is not a legal email address
+---------------------------------------------------------
+
+Enter string 16 out of 20 
+String 16: govern@government.gr.govt
+length: 25
+Char 'g', started in state q0 and went to q1
+Char 'o', started in state q1 and went to q1
+Char 'v', started in state q1 and went to q1
+Char 'e', started in state q1 and went to q1
+Char 'r', started in state q1 and went to q1
+Char 'n', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char 'g', started in state q2 and went to q3
+Char 'o', started in state q3 and went to q3
+Char 'v', started in state q3 and went to q3
+Char 'e', started in state q3 and went to q3
+Char 'r', started in state q3 and went to q3
+Char 'n', started in state q3 and went to q3
+Char 'm', started in state q3 and went to q3
+Char 'e', started in state q3 and went to q3
+Char 'n', started in state q3 and went to q3
+Char 't', started in state q3 and went to q3
+Char '.', started in state q3 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'r', started in state q5 and went to q7
+Char '.', started in state q7 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'o', started in state q5 and went to q6
+Char 'v', started in state q6 and went to q7
+Char 't', started in state q7 and went to q3
+String govern@government.gr.govt is not a legal email address
+---------------------------------------------------------
+
+Enter string 17 out of 20 
+String 17: govern@government.gov.gr
+length: 24
+Char 'g', started in state q0 and went to q1
+Char 'o', started in state q1 and went to q1
+Char 'v', started in state q1 and went to q1
+Char 'e', started in state q1 and went to q1
+Char 'r', started in state q1 and went to q1
+Char 'n', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char 'g', started in state q2 and went to q3
+Char 'o', started in state q3 and went to q3
+Char 'v', started in state q3 and went to q3
+Char 'e', started in state q3 and went to q3
+Char 'r', started in state q3 and went to q3
+Char 'n', started in state q3 and went to q3
+Char 'm', started in state q3 and went to q3
+Char 'e', started in state q3 and went to q3
+Char 'n', started in state q3 and went to q3
+Char 't', started in state q3 and went to q3
+Char '.', started in state q3 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'o', started in state q5 and went to q6
+Char 'v', started in state q6 and went to q7
+Char '.', started in state q7 and went to q4
+Char 'g', started in state q4 and went to q5
+Char 'r', started in state q5 and went to q7
+String govern@government.gov.gr is a legal email address
+---------------------------------------------------------
+
+Enter string 18 out of 20 
+String 18: @mnop.gov
+length: 9
+Char '@', started in state q0 and went to q8
+Char 'm', started in state q8 and went to q8 (trap state) 
+Char 'n', started in state q8 and went to q8 (trap state) 
+Char 'o', started in state q8 and went to q8 (trap state) 
+Char 'p', started in state q8 and went to q8 (trap state) 
+Char '.', started in state q8 and went to q8 (trap state) 
+Char 'g', started in state q8 and went to q8 (trap state) 
+Char 'o', started in state q8 and went to q8 (trap state) 
+Char 'v', started in state q8 and went to q8 (trap state) 
+String @mnop.gov is not a legal email address
+---------------------------------------------------------
+
+Enter string 19 out of 20 
+String 19: xyzz.bcde.grow@.gov
+length: 19
+Char 'x', started in state q0 and went to q1
+Char 'y', started in state q1 and went to q1
+Char 'z', started in state q1 and went to q1
+Char 'z', started in state q1 and went to q1
+Char '.', started in state q1 and went to q0
+Char 'b', started in state q0 and went to q1
+Char 'c', started in state q1 and went to q1
+Char 'd', started in state q1 and went to q1
+Char 'e', started in state q1 and went to q1
+Char '.', started in state q1 and went to q0
+Char 'g', started in state q0 and went to q1
+Char 'r', started in state q1 and went to q1
+Char 'o', started in state q1 and went to q1
+Char 'w', started in state q1 and went to q1
+Char '@', started in state q1 and went to q2
+Char '.', started in state q2 and went to q8
+Char 'g', started in state q8 and went to q8 (trap state) 
+Char 'o', started in state q8 and went to q8 (trap state) 
+Char 'v', started in state q8 and went to q8 (trap state) 
+String xyzz.bcde.grow@.gov is not a legal email address
+---------------------------------------------------------
+
+Enter string 20 out of 20 
+String 20: abcd..efg@fort.gov
+length: 18
+Char 'a', started in state q0 and went to q1
+Char 'b', started in state q1 and went to q1
+Char 'c', started in state q1 and went to q1
+Char 'd', started in state q1 and went to q1
+Char '.', started in state q1 and went to q0
+Char '.', started in state q0 and went to q8
+Char 'e', started in state q8 and went to q8 (trap state) 
+Char 'f', started in state q8 and went to q8 (trap state) 
+Char 'g', started in state q8 and went to q8 (trap state) 
+Char '@', started in state q8 and went to q8 (trap state) 
+Char 'f', started in state q8 and went to q8 (trap state) 
+Char 'o', started in state q8 and went to q8 (trap state) 
+Char 'r', started in state q8 and went to q8 (trap state) 
+Char 't', started in state q8 and went to q8 (trap state) 
+Char '.', started in state q8 and went to q8 (trap state) 
+Char 'g', started in state q8 and went to q8 (trap state) 
+Char 'o', started in state q8 and went to q8 (trap state) 
+Char 'v', started in state q8 and went to q8 (trap state) 
+String abcd..efg@fort.gov is not a legal email address
+---------------------------------------------------------
+

@@ -155,6 +155,7 @@ int q0_k37(char *word, int start, int end){
 }
 
 int main() {
+    // displaying the info required
     printf("Project 1 for CS341 \n");
     printf("Section number: 004 \n");
     printf("Semester: Spring 2024 \n");
@@ -162,6 +163,7 @@ int main() {
     printf("Project 1 for CS341 \n");
     printf("Enter a number, n >= 0, for strings to process: \n");
     int num;
+    // entering the number of the strings
     scanf("%d\n",&num);
     if( num <= 0){
         printf("Not enough strings\n");
@@ -170,6 +172,7 @@ int main() {
     char buff[100];
     printf("%d strings to be processed\n", num);
     printf("---------------------------------------------------------\n\n");
+    // transititon from numbers to strings
     for (int str=1; str<=num; str++){
         printf("Enter string %d out of %d \n", str, num);
         scanf("%s", buff);

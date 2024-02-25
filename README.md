@@ -1,7 +1,9 @@
 # cs341_email_dfa
 CS341 DFA implementation in code
 Here is the picture of the DFA:
+
 !dfa_cs341.jpg A DFA for email addresses
+![A DFA for emails](dfa_cs341.jpg)
 On the sides it explains all the inputs that are possible. 
 
 
